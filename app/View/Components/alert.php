@@ -2,12 +2,11 @@
 
 namespace App\View\Components;
 
-use App\Models\Items;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class listitem extends Component
+class alert extends Component
 {
     /**
      * Create a new component instance.
@@ -15,7 +14,6 @@ class listitem extends Component
     public function __construct()
     {
         //
-
     }
 
     /**
@@ -23,6 +21,6 @@ class listitem extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.listitem');
+        return view('components.alert');
     }
 }
