@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('items', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->text('desc');
+            $table->text('desc')->default('')->nullable();
             $table->integer('price');
             $table->integer('currentBudget');
             $table->integer('monthlyIncome');

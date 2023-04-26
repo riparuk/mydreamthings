@@ -1,0 +1,7 @@
+Items::create([
+    'name' => 'Macbook XR',
+    'desc' => 'Untuk kuliah',
+    'price' => 25000000,
+    'currentBudget' => 1000000,
+    'monthlyIncome' => 100000
+])

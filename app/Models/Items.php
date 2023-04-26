@@ -14,7 +14,7 @@ class Items extends Model
         'desc',
         'price',
         'currentBudget',
-        'monthlyIncomoe'
+        'monthlyIncome'
     ];
 
 }
